@@ -1,6 +1,5 @@
 function [ result ] = make_sensing(idle , busy, SNR, threshold, signalPU_var ,S)
 
-
 % --- Sinal do Prim?rio --- %
 snr = 10^(SNR/20);
 signalPU_m = snr;  %% m?dia da distribui??o normal do sinal
